@@ -1,0 +1,20 @@
+{
+
+  "description": "Adds a new CSS sheet with better rules, and replaces blurry text with a fresh copy from the server.",
+  "manifest_version": 2,
+  "name": "MyStatesman Annoyance Remover",
+  "version": "1.0",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/borderify",
+  "icons": {
+    "48": "if_News_131995.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.mystatesman.com/*"],
+      "js": ["gorbachov.js"],
+      "css":["gorbachov.css"]
+    }
+  ]
+
+}
