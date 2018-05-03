@@ -6,7 +6,7 @@
   "version": "1.0",
   "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/borderify",
   "icons": {
-    "48": "if_News_131995.png"
+    "48": "icons/if_News_131995.png"
   },
 
   "content_scripts": [
